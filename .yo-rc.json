@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.pfe.sequortalibfinal",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "monolith",
+    "baseName": "sequortalibfinal",
+    "packageName": "com.pfe.sequortalibfinal",
+    "packageFolder": "com/pfe/sequortalibfinal",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "YjBjMDE0ZDA1NzQxZjdlNzk2OTAzYzc4Y2E0NTUyZWU4NzZiNzU5YzYyODA0OWYwODczZDU1ZThmNjljZDQ0MDRjMmI3MjRhOGRjN2ZlMTI5NTg5NGI4OTdhYWRhZTE1OGQ3ZTAyN2FkNzYzNThlNjdlN2M1ZGNkYWIyMzRlMWM=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1590100511909,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr", "ar-ly", "en", "es"],
+    "blueprints": []
+  }
+}
