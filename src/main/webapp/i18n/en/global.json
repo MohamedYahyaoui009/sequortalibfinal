@@ -1,12 +1,22 @@
 {
   "global": {
-    "title": "Sequortalibfinal",
+    "title": "Sequortalib",
     "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
     "menu": {
       "home": "Home",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "module": "Module",
+        "filiere": "Filiere",
+        "historiqueEtudiantModule": "Historique Etudiant Module",
+        "historiqueEnseignantModule": "Historique Enseignant Module",
+        "departement": "Departement",
+        "historiqueEnseignantFiliere": "Historique Enseignant Filiere",
+        "historiqueEtudiantFiliere": "Historique Etudiant Filiere",
+        "etudiant": "Etudiant",
+        "enseignant": "Enseignant",
+        "etablissement": "Etablissement",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
@@ -49,8 +59,8 @@
       "info": {
         "authenticated": {
           "prefix": "If you want to ",
-          "link": "sign in",
-          "suffix": ", you can try the default accounts:<br/>- Administrator (login=\"admin\" and password=\"admin\") <br/>- User (login=\"user\" and password=\"user\")."
+          "link": "sign in <br>",
+          "suffix": "Any account containing a Username other than the form (\"Firstname_Lastname_num CIN\") will not be activated!"
         },
         "register": {
           "noaccount": "You don't have an account yet?",
@@ -136,5 +146,5 @@
       "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
     }
   },
-  "footer": "This is your footer"
+  "footer": "Education is the most powerful weapon which you can use to change the world!"
 }

@@ -1,12 +1,22 @@
 {
   "global": {
-    "title": "Sequortalibfinal",
+    "title": "Sequortalib",
     "browsehappy": "Está usando un navegador <strong>no actualizado</strong>. Por favor, <a href=\"http://browsehappy.com/?locale=es\">actualice su navegador</a> para mejorar su experiencia.",
     "menu": {
       "home": "Inicio",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entidades",
+        "module": "Module",
+        "filiere": "Filiere",
+        "historiqueEtudiantModule": "Historique Etudiant Module",
+        "historiqueEnseignantModule": "Historique Enseignant Module",
+        "departement": "Departement",
+        "historiqueEnseignantFiliere": "Historique Enseignant Filiere",
+        "historiqueEtudiantFiliere": "Historique Etudiant Filiere",
+        "etudiant": "Etudiant",
+        "enseignant": "Enseignant",
+        "etablissement": "Etablissement",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
@@ -49,8 +59,8 @@
       "info": {
         "authenticated": {
           "prefix": "Si desea ",
-          "link": "iniciar sesión",
-          "suffix": ", puede intentar con las cuentas predeterminadas:<br/>- Administrador (usuario=\"admin\" y contraseña=\"admin\") <br/>- Usuario (usuario=\"user\" y contraseña=\"user\")."
+          "link": "iniciar sesión<br>",
+          "suffix": "No se activará ninguna cuenta que contenga un Nombre de usuario que no sea el formulario (\"Nom_Prenom_numero CIN\")!)."
         },
         "register": {
           "noaccount": "¿Aún no tienes una cuenta?",
@@ -135,5 +145,5 @@
       "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
     }
   },
-  "footer": "Pie de página"
+  "footer": "la educación es el arma más poderosa para cambiar el mundo!"
 }

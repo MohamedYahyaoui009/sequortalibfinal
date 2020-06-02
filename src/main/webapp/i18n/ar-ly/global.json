@@ -1,12 +1,22 @@
 {
   "global": {
-    "title": "Sequortalibfinal",
+    "title": "Sequortalib",
     "browsehappy": "أنت تستخدم متصفح <strong>قديم</strong> . من فضلك <a href=\"http://browsehappy.com/?locale=en\">قم بتحديث متصفحك</a> لتحسين تجربتك.",
     "menu": {
       "home": "الصفحة الرئيسية",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "الكيانات",
+        "module": "Module",
+        "filiere": "Filiere",
+        "historiqueEtudiantModule": "Historique Etudiant Module",
+        "historiqueEnseignantModule": "Historique Enseignant Module",
+        "departement": "Departement",
+        "historiqueEnseignantFiliere": "Historique Enseignant Filiere",
+        "historiqueEtudiantFiliere": "Historique Etudiant Filiere",
+        "etudiant": "Etudiant",
+        "enseignant": "Enseignant",
+        "etablissement": "Etablissement",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
@@ -49,8 +59,8 @@
       "info": {
         "authenticated": {
           "prefix": "إذا اردت أن ",
-          "link": "تسجل دخولك",
-          "suffix": ", يمكنك تجربة الحسابات التجريبية:<br/>- المدير (login=\"admin\" و كلمة المرور=\"admin\") <br/>- المستخدم (login=\"user\" و كلمة المرور=\"user\")."
+          "link": "تسجل دخولك<br>",
+          "suffix": "لن يتم تفعيل أي حساب يحتوي على اسم مستخدم بخلاف النموذج (\"Nom_Prenom_numero CIN\")!"
         },
         "register": {
           "noaccount": "لا تملك حسابا حتى الآن؟",
@@ -135,5 +145,5 @@
       "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
     }
   },
-  "footer": "هنا يضع الفووتر"
+  "footer": "التعليم هو أقوى سلاح لتغيير العالم!"
 }

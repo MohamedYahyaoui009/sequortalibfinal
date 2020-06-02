@@ -42,6 +42,28 @@ public class CacheConfiguration {
             createCache(cm, com.pfe.sequortalibfinal.domain.User.class.getName());
             createCache(cm, com.pfe.sequortalibfinal.domain.Authority.class.getName());
             createCache(cm, com.pfe.sequortalibfinal.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.pfe.sequortalibfinal.domain.Module.class.getName());
+            createCache(cm, com.pfe.sequortalibfinal.domain.Filiere.class.getName());
+            createCache(cm, com.pfe.sequortalibfinal.domain.Filiere.class.getName() + ".modules");
+            createCache(cm, com.pfe.sequortalibfinal.domain.Module.class.getName() + ".filieres");
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEtudiantModule.class.getName());
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEtudiantModule.class.getName() + ".modules");
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEnseignantModule.class.getName());
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEnseignantModule.class.getName() + ".modules");
+            createCache(cm, com.pfe.sequortalibfinal.domain.Departement.class.getName());
+            createCache(cm, com.pfe.sequortalibfinal.domain.Departement.class.getName() + ".filieres");
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEnseignantFiliere.class.getName());
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEnseignantFiliere.class.getName() + ".filieres");
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEtudiantFiliere.class.getName());
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEtudiantFiliere.class.getName() + ".filieres");
+            createCache(cm, com.pfe.sequortalibfinal.domain.Etudiant.class.getName());
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEtudiantModule.class.getName() + ".etudiants");
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEtudiantFiliere.class.getName() + ".etudiants");
+            createCache(cm, com.pfe.sequortalibfinal.domain.Enseignant.class.getName());
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEnseignantModule.class.getName() + ".enseignants");
+            createCache(cm, com.pfe.sequortalibfinal.domain.HistoriqueEnseignantFiliere.class.getName() + ".enseignants");
+            createCache(cm, com.pfe.sequortalibfinal.domain.Etablissement.class.getName());
+            createCache(cm, com.pfe.sequortalibfinal.domain.Etablissement.class.getName() + ".etudiants");
             // jhipster-needle-ehcache-add-entry
         };
     }
