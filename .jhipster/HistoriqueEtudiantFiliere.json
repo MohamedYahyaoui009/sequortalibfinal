@@ -1,0 +1,34 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "etudiant",
+            "otherEntityName": "etudiant",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "historiqueEtudiantFiliere"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "datedebut",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "datefin",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20200522190736",
+    "dto": "no",
+    "searchEngine": "elasticsearch",
+    "service": "serviceImpl",
+    "entityTableName": "historique_etudiant_filiere",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination"
+}

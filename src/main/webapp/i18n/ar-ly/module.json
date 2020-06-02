@@ -1,0 +1,27 @@
+{
+  "sequortalibfinalApp": {
+    "module": {
+      "home": {
+        "title": "Modules",
+        "createLabel": "Create a new Module",
+        "createOrEditLabel": "Create or edit a Module",
+        "search": "Search for Module",
+        "notFound": "No Modules found"
+      },
+      "created": "A new Module is created with identifier {{ param }}",
+      "updated": "A Module is updated with identifier {{ param }}",
+      "deleted": "A Module is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Module {{ id }}?"
+      },
+      "detail": {
+        "title": "Module"
+      },
+      "nom": "Nom",
+      "semestre": "Semestre",
+      "filiere": "Filiere",
+      "historiqueEtudiantModule": "Historique Etudiant Module",
+      "historiqueEnseignantModule": "Historique Enseignant Module"
+    }
+  }
+}

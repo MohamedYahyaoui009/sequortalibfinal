@@ -1,0 +1,47 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "filiere",
+            "otherEntityName": "filiere",
+            "relationshipType": "many-to-many",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "module"
+        },
+        {
+            "relationshipName": "historiqueEtudiantModule",
+            "otherEntityName": "historiqueEtudiantModule",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "datedebut",
+            "otherEntityRelationshipName": "module"
+        },
+        {
+            "relationshipName": "historiqueEnseignantModule",
+            "otherEntityName": "historiqueEnseignantModule",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "datedebut",
+            "otherEntityRelationshipName": "module"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nom",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "semestre",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20200522114637",
+    "dto": "no",
+    "searchEngine": "elasticsearch",
+    "service": "serviceImpl",
+    "entityTableName": "module",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination"
+}

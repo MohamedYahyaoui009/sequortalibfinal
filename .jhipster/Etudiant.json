@@ -1,0 +1,60 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "historiqueEtudiantModule",
+            "otherEntityName": "historiqueEtudiantModule",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "datedebut",
+            "otherEntityRelationshipName": "etudiant"
+        },
+        {
+            "relationshipName": "historiqueEtudiantFiliere",
+            "otherEntityName": "historiqueEtudiantFiliere",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "datedebut",
+            "otherEntityRelationshipName": "etudiant"
+        },
+        {
+            "relationshipName": "etablissement",
+            "otherEntityName": "etablissement",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nom",
+            "otherEntityRelationshipName": "etudiant"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "semestre",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "section",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "etat",
+            "fieldType": "Status",
+            "fieldValues": "DIPLOME,NONDIPLOME",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20200524215207",
+    "dto": "no",
+    "searchEngine": "elasticsearch",
+    "service": "serviceImpl",
+    "entityTableName": "etudiant",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination"
+}

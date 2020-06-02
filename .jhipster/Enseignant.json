@@ -1,0 +1,38 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "historiqueEnseignantModule",
+            "otherEntityName": "historiqueEnseignantModule",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "datedebut",
+            "otherEntityRelationshipName": "enseignant"
+        },
+        {
+            "relationshipName": "historiqueEnseignantFiliere",
+            "otherEntityName": "historiqueEnseignantFiliere",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "datedebut",
+            "otherEntityRelationshipName": "enseignant"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "grade",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20200524231719",
+    "dto": "no",
+    "searchEngine": "elasticsearch",
+    "service": "serviceImpl",
+    "entityTableName": "enseignant",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination"
+}

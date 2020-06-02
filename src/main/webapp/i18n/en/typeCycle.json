@@ -1,0 +1,10 @@
+{
+  "sequortalibfinalApp": {
+    "TypeCycle": {
+      "null": "",
+      "MASTER": "MASTER",
+      "INGENIERIE": "INGENIERIE",
+      "MEDECINE": "MEDECINE"
+    }
+  }
+}

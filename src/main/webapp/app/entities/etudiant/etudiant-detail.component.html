@@ -1,0 +1,56 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="etudiant">
+            <h2><span jhiTranslate="sequortalibfinalApp.etudiant.detail.title">Etudiant</span> {{ etudiant.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="sequortalibfinalApp.etudiant.semestre">Semestre</span></dt>
+                <dd>
+                    <span>{{ etudiant.semestre }}</span>
+                </dd>
+                <dt><span jhiTranslate="sequortalibfinalApp.etudiant.section">Section</span></dt>
+                <dd>
+                    <span>{{ etudiant.section }}</span>
+                </dd>
+                <dt><span jhiTranslate="sequortalibfinalApp.etudiant.etat">Etat</span></dt>
+                <dd>
+                    <span jhiTranslate="{{ 'sequortalibfinalApp.Status.' + etudiant.etat }}">{{ etudiant.etat }}</span>
+                </dd>
+                <dt><span jhiTranslate="sequortalibfinalApp.etudiant.historiqueEtudiantModule">Historique Etudiant Module</span></dt>
+                <dd>
+                    <div *ngIf="etudiant.historiqueEtudiantModule">
+                        <a [routerLink]="['/historique-etudiant-module', etudiant.historiqueEtudiantModule?.id, 'view']">{{ etudiant.historiqueEtudiantModule?.datedebut }}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="sequortalibfinalApp.etudiant.historiqueEtudiantFiliere">Historique Etudiant Filiere</span></dt>
+                <dd>
+                    <div *ngIf="etudiant.historiqueEtudiantFiliere">
+                        <a [routerLink]="['/historique-etudiant-filiere', etudiant.historiqueEtudiantFiliere?.id, 'view']">{{ etudiant.historiqueEtudiantFiliere?.datedebut }}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="sequortalibfinalApp.etudiant.etablissement">Etablissement</span></dt>
+                <dd>
+                    <div *ngIf="etudiant.etablissement">
+                        <a [routerLink]="['/etablissement', etudiant.etablissement?.id, 'view']">{{ etudiant.etablissement?.nom }}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/etudiant', etudiant.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

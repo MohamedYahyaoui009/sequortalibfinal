@@ -1,0 +1,28 @@
+{
+  "sequortalibfinalApp": {
+    "etudiant": {
+      "home": {
+        "title": "Etudiants",
+        "createLabel": "Crear nuevo Etudiant",
+        "createOrEditLabel": "Crear o editar Etudiant",
+        "search": "Buscar Etudiant",
+        "notFound": "Ningún Etudiants encontrado"
+      },
+      "created": "Un nuevo Etudiant ha sido creado con el identificador {{ param }}",
+      "updated": "Un Etudiant ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Etudiant ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Etudiant {{ id }}?"
+      },
+      "detail": {
+        "title": "Etudiant"
+      },
+      "semestre": "Semestre",
+      "section": "Section",
+      "etat": "Etat",
+      "historiqueEtudiantModule": "Historique Etudiant Module",
+      "historiqueEtudiantFiliere": "Historique Etudiant Filiere",
+      "etablissement": "Etablissement"
+    }
+  }
+}
